@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- External Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/vendors/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Internal Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <!-- Hero -->
+    <section class="hero d-flex flex-column position-relative">
+      <div class="container-fluid container-full">
+        <div class="row">
+          <div class="col-12">
+            <div class="hero-content">
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                  <img src="./assets/images/image-logo-white.png" alt="Logo" />
+                </a>
+                <!-- <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div
+                  class="collapse navbar-collapse justify-content-end"
+                  id="navbarNav"
+                >
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link nav-link--custom text-white text-uppercase"
+                        aria-current="page"
+                        href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-link--custom text-white text-uppercase" href="#"
+                        >About</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-link--custom text-white text-uppercase" href="#"
+                        >Team</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-link--custom text-white text-uppercase" href="#"
+                        >Services</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-link--custom text-white text-uppercase" href="#"
+                        >Projects</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-link--custom text-white text-uppercase" href="#"
+                        >Process</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-link--custom text-white text-uppercase" href="#"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid container-full flex-grow-1 d-flex flex-column justify-content-center"
+      >
+        <div class="row">
+          <div class="col-12">
+            <!-- Text -->
+            <div class="d-flex flex-column text-white">
+              <span class="hero__sub-title px-3">CONNECTING PEOPLE WITH</span>
+              <h1 class="hero__title px-3 d-flex align-items-end">
+                LANDSCAPE <span class="hero__shape">.</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider Buttons -->
+      <div class="container-fluid container-full hero-slider">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="d-flex align-items-center position-absolute bottom-0 end-0"
+            >
+              <div
+                class="d-inline-flex flex-column gap-3 gap-md-5 justify-content-end align-items-end me-3 me-md-5"
+              >
+                <span class="hero__text-view text-uppercase pe-3"
+                  >La Mer residences</span
+                >
+                <button class="btn-view">
+                  <img src="./assets/images/icon-arrow-up.png" alt="View" />
+                </button>
+              </div>
+              <div class="d-inline-flex flex-column">
+                <button class="btn-carousel btn-carousel--left">
+                  <img src="./assets/images/icon-arrow-left.png" alt="Next" />
+                </button>
+                <button class="btn-carousel btn-carousel--right">
+                  <img
+                    src="./assets/images/icon-arrow-right.png"
+                    alt="Previous"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Who We Are -->
+    <section class="section-about">
+      <div class="container-fluid container-full">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-about__heading">
+              <h2 class="heading-2 text-uppercase text-white">
+                Who We Are<span class="hero__shape">.</span>
+              </h2>
+              <p class="section-about__sub-title text-white">
+                We are a
+                <span class="section-about__sub-title--highlight">
+                  highly creative team
+                </span>
+                of Design Professionals who provide Landscape Consultancy
+                services for all types of Projects.
+              </p>
+            </div>
+            <hr class="section-about__hr" />
+            <div
+              class="d-flex flex-column flex-md-row flex-wrap gap-3 justify-content-between align-items-md-center"
+            >
+              <p class="section-about__text">
+                Our true passion lies in providing
+                <span class="u-font-bold">“unique”</span>
+                <span class="u-font-bold">and</span>
+                <span class="u-font-bold">“out of the box”</span> design
+                solutions for landscape destinations across all sectors. We
+                strongly believe every project should be treated on an
+                individual basis with its own design character, approach and
+                story of how it came to be. Our leadership team has collectively
+                been in the region for
+                <span class="u-font-bold"
+                  >more than thirty years and has a wealth of experience in
+                  designing</span
+                >
+                unique landscapes <span class="u-font-bold">which</span> create
+                <span class="u-font-bold">meaningful experiences</span>.
+              </p>
+              <a
+                href="#"
+                target="_blank"
+                class="btn--secondary d-flex align-items-center justify-content-center gap-3"
+                >more about us
+                <img src="./assets/images/icon-arrow-btn.png" alt="explore" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured -->
+    <section class="section-featured">
+      <div class="container-fluid container-full mb-5">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="d-flex flex-column flex-md-row gap-3 justify-content-between align-items-md-center"
+            >
+              <h2 class="heading-2 text-uppercase text-white">
+                FEATURED CREATIONS<span class="hero__shape">.</span>
+              </h2>
+              <a
+                href="#"
+                target="_blank"
+                class="btn--secondary d-flex align-items-center justify-content-center gap-3"
+                >view all projects
+                <img src="./assets/images/icon-arrow-btn.png" alt="explore" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="featured-grid">
+          <div
+            class="featured-grid__item featured-grid__item--large position-relative"
+          >
+            <img
+              src="./assets/images/image-grid-item-1.png"
+              alt="Image 01"
+              class="featured-grid__photo"
+            />
+            <div class="feature__item--after">
+              <div
+                class="position-absolute featured-grid__text-overlay d-flex flex-column text-white"
+              >
+                <span class="featured-grid__residence text-black"
+                  >Qiddiya Performing Arts Center</span
+                >
+                <span class="featured-grid__location text-black"
+                  >Riyadh, KSA</span
+                >
+              </div>
+              <div
+                class="position-absolute featured-grid__text featured-grid__text--large d-flex flex-column text-white"
+              >
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn--outline d-flex align-items-center justify-content-center gap-3"
+                  >View Project Details
+                  <img
+                    src="./assets/images/icon-arrow-up-black.png"
+                    alt="explore"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="featured-grid">
+          <div
+            class="featured-grid__item featured-grid__item--small position-relative"
+          >
+            <img
+              src="./assets/images/image-grid-item-3.png"
+              alt="Image 01"
+              class="featured-grid__photo"
+            />
+            <div
+              class="position-absolute featured-grid__text d-flex flex-column text-white"
+            >
+              <span class="featured-grid__residence">La Mer RESIDENCES</span>
+              <span class="featured-grid__location">RAS AL KHAIMAH, UAE</span>
+            </div>
+            <div class="feature__item--after feature__item--after-small">
+              <div
+                class="position-absolute featured-grid__text-overlay d-flex flex-column text-white"
+              >
+                <span class="featured-grid__residence text-black"
+                  >La Mer RESIDENCESy</span
+                >
+                <span class="featured-grid__location text-black"
+                  >RAS AL KHAIMAH, UAE</span
+                >
+              </div>
+              <div
+                class="position-absolute featured-grid__text featured-grid__text--large d-flex flex-column text-white"
+              >
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn--outline d-flex align-items-center justify-content-center gap-3"
+                  >View Project Details
+                  <img
+                    src="./assets/images/icon-arrow-up-black.png"
+                    alt="explore"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- <div
+              class="position-absolute featured-grid__text d-flex flex-column text-white"
+            >
+              <span class="featured-grid__residence">La Mer RESIDENCES</span>
+              <span class="featured-grid__location">RAS AL KHAIMAH, UAE</span>
+            </div> -->
+          </div>
+          <div
+            class="featured-grid__item featured-grid__item--small position-relative"
+          >
+            <img
+              src="./assets/images/image-grid-item-4.png"
+              alt="Image 01"
+              class="featured-grid__photo"
+            />
+            <div
+              class="position-absolute featured-grid__text d-flex flex-column text-white"
+            >
+              <span class="featured-grid__residence"
+                >Rove Home Business Bay</span
+              >
+              <span class="featured-grid__location">Dubai, UAE</span>
+            </div>
+
+            <div class="feature__item--after feature__item--after-small">
+              <div
+                class="position-absolute featured-grid__text-overlay d-flex flex-column text-white"
+              >
+                <span class="featured-grid__residence text-black"
+                  >Rove Home Business Bay</span
+                >
+                <span class="featured-grid__location text-black"
+                  >Dubai, UAE</span
+                >
+              </div>
+              <div
+                class="position-absolute featured-grid__text featured-grid__text--large d-flex flex-column text-white"
+              >
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn--outline d-flex align-items-center justify-content-center gap-3"
+                  >View Project Details
+                  <img
+                    src="./assets/images/icon-arrow-up-black.png"
+                    alt="explore"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Creators -->
+    <section class="section-creators">
+      <div class="container-fluid container-full">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="d-flex flex-column flex-md-row justify-content-between gap-4 gap-md-5 align-items-md-center"
+            >
+              <div class="d-flex flex-column">
+                <h2 class="heading-2 text-uppercase text-black">
+                  the creators<span class="hero__shape">.</span>
+                </h2>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn--secondary d-flex align-items-center justify-content-center gap-3"
+                  >Meet The Team
+                  <img src="./assets/images/icon-arrow-btn.png" alt="explore" />
+                </a>
+              </div>
+              <p class="section-creators__sub-title text-black">
+                Our team has been carefully assembled to allow us to provide the
+                best level of design and technical support to our clients at all
+                stages of the design process. We have the perfect balance of
+                creative and technical design skills throughout our team of
+                thirty including one of the best Landscape BIM teams in the
+                region.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-3 mt-md-5 container-full">
+        <div class="position-relative team-caption-container">
+          <img src="./assets/images/image-team.png" alt="Our Team" />
+          <p class="team-caption px-4">
+            We're a highly creative team with a simple goal....... produce
+            awesome work and have a lot of fun doing so!
+          </p>
+        </div>
+        <!-- Team -->
+        <div class="mt-5">
+          <div class="section-creators__grid">
+            <div class="section-creators__grid-item position-relative">
+              <img
+                src="./assets/images/team-photo-1.png"
+                alt="Henry Duck CMLI"
+              />
+              <div class="d-flex flex-column section-creators__grid-info">
+                <span class="section-creators__grid-name">Henry Duck CMLI</span>
+                <span class="section-creators__grid-profession">Director</span>
+              </div>
+            </div>
+            <div class="section-craetors__grid-3">
+              <div class="section-creators__grid-item position-relative">
+                <img
+                  src="./assets/images/team-photo-2.png"
+                  alt="Henry Duck CMLI"
+                />
+                <div class="d-flex flex-column section-creators__grid-info">
+                  <span class="section-creators__grid-name">Karla Albao</span>
+                  <span class="section-creators__grid-profession"
+                    >Associate Director</span
+                  >
+                </div>
+              </div>
+              <div class="section-creators__grid-item position-relative">
+                <img
+                  src="./assets/images/team-photo-3.png"
+                  alt="Henry Duck CMLI"
+                />
+                <div class="d-flex flex-column section-creators__grid-info">
+                  <span class="section-creators__grid-name"
+                    >Rafiullah Taniwal</span
+                  >
+                  <span class="section-creators__grid-profession"
+                    >Senior Landscape Architect</span
+                  >
+                </div>
+              </div>
+              <div class="section-creators__grid-item position-relative">
+                <img
+                  src="./assets/images/team-photo-4.png"
+                  alt="Henry Duck CMLI"
+                />
+                <div class="d-flex flex-column section-creators__grid-info">
+                  <span class="section-creators__grid-name"
+                    >James Wiltshire</span
+                  >
+                  <span class="section-creators__grid-profession"
+                    >Senior Landscape Architect</span
+                  >
+                </div>
+              </div>
+              <div class="section-creators__grid-item position-relative">
+                <img
+                  src="./assets/images/team-photo-5.png"
+                  alt="Henry Duck CMLI"
+                />
+                <div class="d-flex flex-column section-creators__grid-info">
+                  <span class="section-creators__grid-name">Jade Caluag</span>
+                  <span class="section-creators__grid-profession"
+                    >Senior Landscape Architect</span
+                  >
+                </div>
+              </div>
+              <div class="section-creators__grid-item position-relative">
+                <img
+                  src="./assets/images/team-photo-6.png"
+                  alt="Henry Duck CMLI"
+                />
+                <div class="d-flex flex-column section-creators__grid-info">
+                  <span class="section-creators__grid-name"
+                    >Christina Baltatzi</span
+                  >
+                  <span class="section-creators__grid-profession"
+                    >Senior Landscape Architect</span
+                  >
+                </div>
+              </div>
+              <div class="section-creators__grid-item position-relative">
+                <img
+                  src="./assets/images/team-photo-7.png"
+                  alt="Henry Duck CMLI"
+                />
+                <div class="d-flex flex-column section-creators__grid-info">
+                  <span class="section-creators__grid-name"
+                    >Daniel Lawton CMLI</span
+                  >
+                  <span class="section-creators__grid-profession"
+                    >Senior Associate Landscape Architect</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Carousel -->
+    <section class="section-carousel">
+      <h3 class="section-carousel__title">SCLA Collaborators</h3>
+      <div class="section-carousel__container">
+        <div class="slide-collaborators">
+          <div class="slide-collaborators__item">
+            <img
+              src="./assets/images/carousel-logo-1.png"
+              alt=""
+              class="slide-collaborators__photo"
+            />
+          </div>
+          <div class="slide-collaborators__item">
+            <img
+              src="./assets/images/carousel-logo-2.png"
+              alt=""
+              class="slide-collaborators__photo"
+            />
+          </div>
+          <div class="slide-collaborators__item">
+            <img
+              src="./assets/images/carousel-logo-3.png"
+              alt=""
+              class="slide-collaborators__photo"
+            />
+          </div>
+          <div class="slide-collaborators__item">
+            <img
+              src="./assets/images/carousel-logo-4.png"
+              alt=""
+              class="slide-collaborators__photo"
+            />
+          </div>
+          <div class="slide-collaborators__item">
+            <img
+              src="./assets/images/carousel-logo-5.png"
+              alt=""
+              class="slide-collaborators__photo"
+            />
+          </div>
+          <div class="slide-collaborators__item">
+            <img
+              src="./assets/images/carousel-logo-6.png"
+              alt=""
+              class="slide-collaborators__photo"
+            />
+          </div>
+          <div class="slide-collaborators__item">
+            <img
+              src="./assets/images/carousel-logo-7.png"
+              alt=""
+              class="slide-collaborators__photo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container-fluid container-full">
+        <div class="row">
+          <div
+            class="col-12 footer__main d-flex flex-column flex-lg-row justify-content-between gap-4 g-md-5"
+          >
+            <form action="#" class="footer-form">
+              <h3 class="footer-form__title">Contact Us</h3>
+              <div class="d-flex flex-column flex-md-row gap-4 gap-md-5 w-100">
+                <div class="d-flex flex-column gap-4 w-100">
+                  <label for="first-name" class="footer-form__label"
+                    >Full Name *</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    id="first-name"
+                    class="footer-form__input"
+                  />
+                </div>
+                <div class="d-flex flex-column gap-4 w-100">
+                  <label for="email" class="footer-form__label"
+                    >Your email *</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="eg.name@email.com"
+                    id="email"
+                    class="footer-form__input"
+                  />
+                </div>
+              </div>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Your Message"
+                class="footer-form__textarea mt-4 mt-md-5"
+              ></textarea>
+              <button
+                class="btn--secondary d-flex align-items-center justify-content-center gap-3 u-w-176 my-4 my-md-5"
+              >
+                Send
+                <img src="./assets/images/icon-arrow-btn.png" alt="explore" />
+              </button>
+            </form>
+            <div class="d-flex flex-column gap-5 social-card-container">
+              <div class="social-card d-flex">
+                <span class="social-card__name">CONTACT</span>
+                <div class="d-flex flex-column gap-1">
+                  <a href="#" class="social-card__link">+971 04 3991985</a>
+                  <a href="#" class="social-card__link"
+                    >info@studiocreatela.com</a
+                  >
+                </div>
+              </div>
+              <div class="social-card d-flex">
+                <span class="social-card__name">OFFICE</span>
+                <div class="d-flex flex-column gap-1">
+                  <a href="#" class="social-card__link"
+                    >Office 204, Convention Tower, Al Mustaqbal Street, PO Box
+                    9723, Dubai, UAE (Google Maps)</a
+                  >
+                </div>
+              </div>
+              <div class="social-card d-flex">
+                <span class="social-card__name">SOCIAL</span>
+                <div class="d-flex flex-column gap-1">
+                  <a href="#" class="social-card__link">Instagram</a>
+                  <a href="#" class="social-card__link">Facebook</a>
+                  <a href="#" class="social-card__link">X</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-12 d-flex flex-column flex-md-row gap-3 justify-content-between footer-copy"
+          >
+            <ul class="footer-disclaimer d-flex flex-column flex-md-row gap-4">
+              <li class="footer-disclaimer__item">
+                <a href="#" class="footer-disclaimer__link"
+                  >Privacy Practices</a
+                >
+              </li>
+              <li class="footer-disclaimer__item">
+                <a href="#" class="footer-disclaimer__link">Disclaimer</a>
+              </li>
+              <li class="footer-disclaimer__item">
+                <a href="#" class="footer-disclaimer__link">Terms of Use</a>
+              </li>
+            </ul>
+            <p class="footer-disclaimer__copyright">
+              © 2024 SCLA. All rights reserved. Developed by
+              <a href="#" class="footer-disclaimer__company">GO-Globe.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- External Script -->
+    <script src="./assets/js/vendors/bootstrap.min.js"></script>
+    <script src="./assets/js/vendors/jquery-3.7.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Internal Script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
